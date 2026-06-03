@@ -43,10 +43,10 @@ export default function UpsellPage() {
         <div className="upsell-hero">
           <div className="upsell-badge">ONE-TIME EXCLUSIVE OFFER</div>
           <h1 className="upsell-title">
-            Wait! Unlock the <span className="highlight-gradient">Full Team</span> for Just $2,499 More
+            Wait! Unlock the <span className="highlight-gradient">Full Team</span> for Just $2,000 More
           </h1>
           <p className="upsell-subtitle">
-            Add 6 more AI team members and all remaining skills. <strong>One-time upgrade offer</strong> — price may increase later.
+            Add 6 more AI team members and all remaining skills. <strong>Upgrade now</strong> — this offer won't last forever.
           </p>
         </div>
 
@@ -70,15 +70,15 @@ export default function UpsellPage() {
             <svg width="48" height="48" fill="none" stroke="#FF6B35" strokeWidth="3" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"/>
             </svg>
-            <div className="arrow-label">Upgrade for $2,499</div>
+            <div className="arrow-label">Upgrade for $2,000</div>
           </div>
 
           <div className="comparison-card premium">
             <div className="recommended-badge-upsell">BEST VALUE</div>
             <div className="comparison-header">
               <h3 className="comparison-title">Full Team</h3>
-              <div className="comparison-price">$8,498</div>
-              <div className="comparison-note">Special upgrade offer - may increase later</div>
+              <div className="comparison-price">$7,999</div>
+              <div className="comparison-note">Save $1,000 when you upgrade now</div>
             </div>
             <ul className="comparison-list premium-list">
               <li>9 AI Team Members</li>

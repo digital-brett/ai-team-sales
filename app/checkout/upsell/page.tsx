@@ -60,7 +60,8 @@ export default function UpsellPage() {
             <ul className="comparison-list">
               <li>3 AI Team Members</li>
               <li>Executive Assistant, CFO, COO</li>
-              <li>60+ Core Skills</li>
+              <li>~50 Core Skills</li>
+              <li>Daily briefings, inbox triage, meeting prep, financial reports, bookkeeping, tax strategy, SOP builder, project management</li>
               <li>30-Minute Setup Call</li>
               <li>30 Days Support</li>
             </ul>
@@ -89,7 +90,8 @@ export default function UpsellPage() {
               <li>Deal Analyst (Real Estate)</li>
               <li>Financial Analyst (Stock Market)</li>
               <li>Legal Assistant</li>
-              <li>60+ Total Skills</li>
+              <li>100+ Total Skills (Tier 1+ Skills)</li>
+              <li>Content creation, social media calendars, landing pages, email campaigns, CRM management, deal analysis, property underwriting, portfolio tracking, stock research, legal drafting</li>
               <li>60-Minute Setup Call</li>
               <li>60 Days Support</li>
               <li>Lifetime Updates</li>

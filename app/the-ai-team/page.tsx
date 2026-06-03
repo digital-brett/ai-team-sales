@@ -26,8 +26,8 @@ export default function TheAITeam() {
                 <div className="stat-label">AI Team Members</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">60+</div>
-                <div className="stat-label">Skills & Capabilities</div>
+                <div className="stat-number">100+</div>
+                <div className="stat-label">Total Skills Available</div>
               </div>
               <div className="stat-item">
                 <div className="stat-number">10x</div>
@@ -119,7 +119,7 @@ export default function TheAITeam() {
       {/* What You Get */}
       <section className="what-you-get-section">
         <div className="container">
-          <h2 className="section-title-center">3-9 AI Team Members. 60+ Skills. Unlimited Possibilities.</h2>
+          <h2 className="section-title-center">3-9 AI Team Members. 50-100+ Skills. Unlimited Possibilities.</h2>
 
           <div className="tier-comparison-table">
             <table>
@@ -149,8 +149,8 @@ export default function TheAITeam() {
                 </tr>
                 <tr>
                   <td><strong>Total Skills</strong></td>
-                  <td>60+ core skills</td>
-                  <td className="recommended-col">60+ total skills</td>
+                  <td>~50 core skills</td>
+                  <td className="recommended-col">100+ total skills</td>
                 </tr>
                 <tr>
                   <td><strong>Goal Tracking</strong></td>
@@ -385,7 +385,7 @@ export default function TheAITeam() {
 
               <ul className="pricing-features">
                 <li> 3 AI team members (EA, CFO, COO)</li>
-                <li> 60+ core skills</li>
+                <li> ~50 core skills: Daily briefings, inbox triage, meeting prep, follow-ups, financial reports, SOP builder, project management, contract review, tax strategy, bookkeeping</li>
                 <li> Goal tracking system</li>
                 <li> Morning briefings</li>
                 <li> 30-minute setup call</li>
@@ -416,7 +416,7 @@ export default function TheAITeam() {
 
               <ul className="pricing-features">
                 <li> 9 AI team members (EA, CFO, COO, Marketing, Social Media, Lead Manager, Deal Analyst, Financial Analyst, Legal)</li>
-                <li> 60+ total skills</li>
+                <li> 100+ total skills: Everything in Tier 1 PLUS content creation, social media calendars, landing page optimization, email campaigns, lead tracking, CRM management, deal analysis, property underwriting, portfolio tracking, stock research, legal drafting</li>
                 <li> Complete business operations</li>
                 <li> Morning + weekly briefings</li>
                 <li> Product launch & marketing automation</li>

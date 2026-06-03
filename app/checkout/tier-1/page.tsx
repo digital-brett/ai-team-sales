@@ -80,8 +80,8 @@ export default function Tier1Checkout() {
                   <path d="M5 13l4 4L19 7"/>
                 </svg>
                 <div>
-                  <strong>60+ Core Skills</strong>
-                  <p>Morning briefings, goal tracking, financial tools, SOP creation, project management, and more</p>
+                  <strong>~50 Core Skills</strong>
+                  <p>Daily briefings, inbox triage, meeting prep, follow-ups, financial reports, SOP builder, project management, contract review, tax strategy, bookkeeping, time management, and more</p>
                 </div>
               </li>
               <li>

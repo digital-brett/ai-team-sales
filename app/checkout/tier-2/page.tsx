@@ -93,8 +93,8 @@ export default function Tier2Checkout() {
                   <path d="M5 13l4 4L19 7"/>
                 </svg>
                 <div>
-                  <strong>60+ Skills & Capabilities</strong>
-                  <p>Complete business operations suite - from morning briefings to legal document drafting</p>
+                  <strong>100+ Total Skills (Tier 1+ Skills)</strong>
+                  <p>Everything in Tier 1 PLUS content creation, social media calendars, landing page optimization, email campaigns, lead tracking, CRM management, deal analysis, property underwriting, portfolio tracking, stock research, legal drafting</p>
                 </div>
               </li>
               <li>

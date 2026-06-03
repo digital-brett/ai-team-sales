@@ -15,8 +15,8 @@ export default function UpsellPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          priceId: process.env.NEXT_PUBLIC_TIER_1_UPSELL_PRICE_ID,
-          tier: 'tier-1-upsell',
+          priceId: process.env.NEXT_PUBLIC_TIER_2_PRICE_ID,
+          tier: 'tier-2',
         }),
       });
 
@@ -46,7 +46,7 @@ export default function UpsellPage() {
             Wait! Unlock the <span className="highlight-gradient">Full Team</span> for Just $2,000 More
           </h1>
           <p className="upsell-subtitle">
-            Add 6 more AI team members and all remaining skills. <strong>Upgrade now</strong> — this offer won't last forever.
+            Add 6 more AI team members and all remaining skills. <strong>Save $1,000</strong> when you upgrade now — this offer won't last forever.
           </p>
         </div>
 
@@ -177,13 +177,13 @@ export default function UpsellPage() {
                 </div>
                 <div className="price-line upgrade-price">
                   <span>Upgrade to Full Team</span>
-                  <span>+ $2,499</span>
+                  <span>+ $2,000</span>
                 </div>
                 <div className="price-line total-price">
                   <span>Total</span>
-                  <span>$8,499</span>
+                  <span>$7,999</span>
                 </div>
-                <div className="savings-note">You save $500 vs. buying Full Team separately</div>
+                <div className="savings-note">You save $1,000 vs. buying Full Team later ($2,999 upgrade)</div>
               </div>
             </div>
 
@@ -202,7 +202,7 @@ export default function UpsellPage() {
                 </>
               ) : (
                 <>
-                  Yes! Upgrade to Full Team - $2,499
+                  Yes! Upgrade to Full Team - $2,000 More ($7,999 Total)
                   <svg width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
                   </svg>

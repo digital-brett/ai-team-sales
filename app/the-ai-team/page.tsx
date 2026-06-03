@@ -163,6 +163,36 @@ export default function TheAITeam() {
                   <td className="recommended-col"> Included</td>
                 </tr>
                 <tr>
+                  <td><strong>Marketing & Product Launch</strong></td>
+                  <td>—</td>
+                  <td className="recommended-col"> Included</td>
+                </tr>
+                <tr>
+                  <td><strong>Social Media Management</strong></td>
+                  <td>—</td>
+                  <td className="recommended-col"> Included</td>
+                </tr>
+                <tr>
+                  <td><strong>CRM & Lead Management</strong></td>
+                  <td>—</td>
+                  <td className="recommended-col"> Included</td>
+                </tr>
+                <tr>
+                  <td><strong>Real Estate Deal Analysis</strong></td>
+                  <td>—</td>
+                  <td className="recommended-col"> Included</td>
+                </tr>
+                <tr>
+                  <td><strong>Stock Market Intelligence</strong></td>
+                  <td>—</td>
+                  <td className="recommended-col"> Included</td>
+                </tr>
+                <tr>
+                  <td><strong>Legal Document Drafting</strong></td>
+                  <td>—</td>
+                  <td className="recommended-col"> Included</td>
+                </tr>
+                <tr>
                   <td><strong>Financial Tools</strong></td>
                   <td>Basic</td>
                   <td className="recommended-col">Advanced</td>
@@ -184,7 +214,7 @@ export default function TheAITeam() {
                 </tr>
                 <tr>
                   <td><strong>Upgrade Option</strong></td>
-                  <td>+$2,499 anytime</td>
+                  <td>+$2,999 anytime</td>
                   <td className="recommended-col">—</td>
                 </tr>
               </tbody>
@@ -390,7 +420,7 @@ export default function TheAITeam() {
                 <li> Morning briefings</li>
                 <li> 30-minute setup call</li>
                 <li> 30 days support</li>
-                <li> Upgrade to Full Team anytime (+$2,499)</li>
+                <li> Upgrade to Full Team anytime (+$2,999)</li>
               </ul>
 
               <a href="/checkout/upsell" className="pricing-btn" data-tier="small">
@@ -492,7 +522,7 @@ export default function TheAITeam() {
             <div className="faq-item">
               <h3 className="faq-question">Do I need a Claude subscription?</h3>
               <p className="faq-answer">
-                Yes. The Team requires a Claude Pro ($20/mo) or Claude Max ($75/mo) subscription. <strong>This is NOT
+                Yes. The Team requires a Claude Pro ($20/mo) or Claude Max ($100/mo) subscription. <strong>This is NOT
                 included</strong> with your purchase. We recommend Claude Max if using The Team daily. The Team is built
                 on Claude's AI platform - your subscription pays for the AI processing power.
               </p>
@@ -543,6 +573,22 @@ export default function TheAITeam() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="site-footer">
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer-links">
+              <a href="/terms" className="footer-link">Terms of Service</a>
+              <a href="/privacy" className="footer-link">Privacy Policy</a>
+              <a href="/contact" className="footer-link">Contact Us</a>
+            </div>
+            <div className="footer-copyright">
+              © {new Date().getFullYear()} The AI Team. All rights reserved.
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   )
 }

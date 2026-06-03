@@ -117,7 +117,7 @@ export default function Tier1Checkout() {
                 </svg>
                 <div>
                   <strong>Upgrade Option</strong>
-                  <p>Upgrade to Full Team anytime for $2,500</p>
+                  <p>Upgrade to Full Team anytime for $2,999</p>
                 </div>
               </li>
             </ul>

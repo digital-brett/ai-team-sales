@@ -242,7 +242,7 @@ export default function Tier2Checkout() {
           <h3 className="requirements-title">Requirements:</h3>
           <ul className="requirements-list">
             <li>
-              <strong>Claude Subscription Required:</strong> You need an active Claude Pro ($20/month) or Claude Max ($75/month) subscription. This is NOT included. We recommend Claude Max for daily business use.
+              <strong>Claude Subscription Required:</strong> You need an active Claude Pro ($20/month) or Claude Max ($100/month) subscription. This is NOT included. We recommend Claude Max for daily business use.
             </li>
             <li>
               <strong>Platform:</strong> Works on Mac, Windows, and Linux. Best experience on desktop via Claude Code app.

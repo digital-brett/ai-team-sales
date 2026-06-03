@@ -1,0 +1,207 @@
+/* CANCEL PAGE - DARK THEME */
+
+.cancel-page {
+  background: #0B0F1A;
+  min-height: 100vh;
+  padding: 80px 24px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancel-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Cancel Icon */
+.cancel-icon-wrapper {
+  margin-bottom: 32px;
+}
+
+.cancel-icon {
+  color: rgba(255, 107, 53, 0.7);
+  animation: icon-fade-in 0.5s ease-out;
+}
+
+@keyframes icon-fade-in {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Cancel Message */
+.cancel-title {
+  font-size: 42px;
+  font-weight: 900;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+  letter-spacing: -0.02em;
+}
+
+.cancel-subtitle {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 48px;
+  line-height: 1.6;
+}
+
+/* Reassurance Card */
+.reassurance-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 32px;
+  text-align: left;
+}
+
+.reassurance-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.reassurance-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reassurance-list li {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+  padding-left: 32px;
+  position: relative;
+}
+
+.reassurance-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 8px;
+  color: #10B981;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.reassurance-note {
+  text-align: center;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.6;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0;
+}
+
+.reassurance-note strong {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+/* CTA Buttons */
+.cancel-cta {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.try-again-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #FF6B35 0%, #FF8A5B 100%);
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 16px 36px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 107, 53, 0.5);
+  box-shadow: 0 4px 16px rgba(255, 107, 53, 0.3);
+}
+
+.try-again-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(255, 107, 53, 0.5);
+  border-color: #FFD700;
+}
+
+.home-button-cancel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.home-button-cancel:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* Support Section */
+.support-section {
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.support-text {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.support-link {
+  color: #A855F7;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s;
+}
+
+.support-link:hover {
+  color: #FF6B35;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cancel-page {
+    padding: 60px 16px;
+  }
+
+  .cancel-title {
+    font-size: 32px;
+  }
+
+  .cancel-subtitle {
+    font-size: 18px;
+  }
+
+  .cancel-cta {
+    flex-direction: column;
+  }
+
+  .try-again-button,
+  .home-button-cancel {
+    width: 100%;
+    justify-content: center;
+  }
+}

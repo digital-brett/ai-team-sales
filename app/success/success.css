@@ -101,6 +101,29 @@
   color: #FF6B35;
 }
 
+/* Download Button */
+.download-btn {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 40px;
+  background: linear-gradient(135deg, #A855F7, #FF6B35);
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 18px 48px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid rgba(168, 85, 247, 0.5);
+  box-shadow: 0 4px 16px rgba(168, 85, 247, 0.3);
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(168, 85, 247, 0.5);
+}
+
 /* Next Steps Card */
 .next-steps-card {
   background: rgba(255, 255, 255, 0.05);

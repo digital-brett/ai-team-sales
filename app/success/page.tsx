@@ -8,6 +8,17 @@ import './success.css';
 // Force dynamic rendering
 export const dynamic = 'force-dynamic';
 
+// Per-purchase download links (set these in Vercel env vars once the
+// cleaned ZIPs are uploaded to Dropbox). Leave unset to fall back to
+// email-only delivery instructions.
+const downloadLinks: Record<string, string | undefined> = {
+  'tier-1': process.env.NEXT_PUBLIC_DOWNLOAD_URL_TIER1,
+  'tier-2': process.env.NEXT_PUBLIC_DOWNLOAD_URL_TIER2,
+  'upsell':
+    process.env.NEXT_PUBLIC_DOWNLOAD_URL_UPSELL ||
+    process.env.NEXT_PUBLIC_DOWNLOAD_URL_TIER2,
+};
+
 function SuccessContent() {
   const searchParams = useSearchParams();
   const [tier, setTier] = useState('');
@@ -24,6 +35,8 @@ function SuccessContent() {
     'tier-2': { name: 'Full Team', agents: '9', call: '60-minute' },
     'upsell': { name: 'Full Team', agents: '9', call: '60-minute' }
   }[tier] || { name: 'Small Team', agents: '3', call: '30-minute' };
+
+  const downloadUrl = downloadLinks[tier] || downloadLinks['tier-1'];
 
   return (
     <div className="success-page">
@@ -52,17 +65,34 @@ function SuccessContent() {
           </div>
         </div>
 
+        {downloadUrl && (
+          <a
+            href={downloadUrl}
+            className="download-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Download Your AI Team ({tierDetails.agents} Agents)
+          </a>
+        )}
+
         <div className="success-next-steps">
           <h2>What Happens Next?</h2>
           <ol>
+            {downloadUrl ? (
+              <li>
+                <strong>Download Your AI Team</strong> - Use the download button above to get your ZIP file now
+              </li>
+            ) : (
+              <li>
+                <strong>Download Your AI Team</strong> - Follow the link in the email to access your download
+              </li>
+            )}
             <li>
               <strong>Check Your Email</strong> - Look for a message from{' '}
               <span className="highlight">support@knowmore.academy</span>
               <br/>
               <small>(Check spam/junk if you don't see it within 10 minutes)</small>
-            </li>
-            <li>
-              <strong>Download Your AI Team</strong> - Follow the link in the email to access your download
             </li>
             <li>
               <strong>Schedule Your Setup Call</strong> - You'll receive a separate email with scheduling options

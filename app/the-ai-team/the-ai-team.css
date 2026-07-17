@@ -325,7 +325,24 @@
   font-size: 22px;
   font-weight: 800;
   color: var(--blue-dark);
+  margin-bottom: 4px;
+}
+
+.member-role {
+  color: var(--blue-primary);
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
   margin-bottom: 12px;
+}
+
+.team-section-note {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 15px;
+  max-width: 640px;
+  margin: 0 auto 48px;
 }
 
 .member-description {

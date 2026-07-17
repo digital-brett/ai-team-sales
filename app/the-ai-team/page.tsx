@@ -232,6 +232,9 @@ export default function TheAITeam() {
       <section className="team-members-section">
         <div className="container">
           <h2 className="section-title-center">Meet Your New Executive Team</h2>
+          <p className="team-section-note">
+            Every team member comes with a ready-made persona — and you can rename any of them during your 60-second setup.
+          </p>
 
           <div className="team-grid">
             {/* Executive Assistant */}
@@ -241,7 +244,8 @@ export default function TheAITeam() {
                   <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/>
                 </svg>
               </div>
-              <h3 className="member-title">Executive Assistant</h3>
+              <h3 className="member-title">Rachel Thompson</h3>
+              <div className="member-role">Executive Assistant</div>
               <p className="member-description">
                 Email triage, calendar management, follow-ups, meeting prep, daily briefings
               </p>
@@ -260,7 +264,8 @@ export default function TheAITeam() {
                   <path d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
                 </svg>
               </div>
-              <h3 className="member-title">Chief Financial Officer</h3>
+              <h3 className="member-title">Spencer Holt</h3>
+              <div className="member-role">Chief Financial Officer</div>
               <p className="member-description">
                 Financial reporting, cash flow monitoring, revenue forecasting, KPI dashboards
               </p>
@@ -280,7 +285,8 @@ export default function TheAITeam() {
                   <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
                 </svg>
               </div>
-              <h3 className="member-title">Chief Operating Officer</h3>
+              <h3 className="member-title">Amanda Whitman</h3>
+              <div className="member-role">Chief Operating Officer</div>
               <p className="member-description">
                 Systems, processes, SOP creation, project management, workflow optimization
               </p>
@@ -300,7 +306,8 @@ export default function TheAITeam() {
                   <path d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"/>
                 </svg>
               </div>
-              <h3 className="member-title">Marketing Director</h3>
+              <h3 className="member-title">Taylor Brooks</h3>
+              <div className="member-role">Marketing Director</div>
               <p className="member-description">
                 Content creation, social media calendars, brand building, email sequences
               </p>
@@ -308,6 +315,86 @@ export default function TheAITeam() {
                 <span className="skill-tag">Content Factory</span>
                 <span className="skill-tag">Social Media Calendar</span>
                 <span className="skill-tag">Email Drafter</span>
+              </div>
+            </div>
+
+            {/* Social Media Manager */}
+            <div className="team-member-card tier-2-only">
+              <div className="tier-2-badge">Tier 2 Only</div>
+              <div className="member-icon">
+                <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                </svg>
+              </div>
+              <h3 className="member-title">Marcus Stone</h3>
+              <div className="member-role">Social Media Manager</div>
+              <p className="member-description">
+                Platform-ready posts, posting calendars, engagement tracking, audience growth
+              </p>
+              <div className="member-skills">
+                <span className="skill-tag">Post Creator</span>
+                <span className="skill-tag">Content Calendar</span>
+                <span className="skill-tag">Engagement Tracker</span>
+              </div>
+            </div>
+
+            {/* Lead Manager */}
+            <div className="team-member-card tier-2-only">
+              <div className="tier-2-badge">Tier 2 Only</div>
+              <div className="member-icon">
+                <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                </svg>
+              </div>
+              <h3 className="member-title">Jessica Torres</h3>
+              <div className="member-role">Lead Manager</div>
+              <p className="member-description">
+                Lead capture, pipeline tracking, CRM organization, follow-up sequences
+              </p>
+              <div className="member-skills">
+                <span className="skill-tag">Lead Pipeline</span>
+                <span className="skill-tag">CRM Organizer</span>
+                <span className="skill-tag">Follow-Up Sequences</span>
+              </div>
+            </div>
+
+            {/* Deal Analyst */}
+            <div className="team-member-card tier-2-only">
+              <div className="tier-2-badge">Tier 2 Only</div>
+              <div className="member-icon">
+                <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                </svg>
+              </div>
+              <h3 className="member-title">David Chen</h3>
+              <div className="member-role">Deal Analyst</div>
+              <p className="member-description">
+                Deal underwriting, real estate analysis, comps, ROI projections, offer strategy
+              </p>
+              <div className="member-skills">
+                <span className="skill-tag">Deal Underwriting</span>
+                <span className="skill-tag">Property Comps</span>
+                <span className="skill-tag">ROI Calculator</span>
+              </div>
+            </div>
+
+            {/* Financial Analyst */}
+            <div className="team-member-card tier-2-only">
+              <div className="tier-2-badge">Tier 2 Only</div>
+              <div className="member-icon">
+                <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                </svg>
+              </div>
+              <h3 className="member-title">Winston Hale</h3>
+              <div className="member-role">Financial Analyst</div>
+              <p className="member-description">
+                Stock market intelligence, investment research, portfolio tracking, trend analysis
+              </p>
+              <div className="member-skills">
+                <span className="skill-tag">Market Intelligence</span>
+                <span className="skill-tag">Investment Research</span>
+                <span className="skill-tag">Portfolio Review</span>
               </div>
             </div>
 
@@ -319,7 +406,8 @@ export default function TheAITeam() {
                   <path d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
                 </svg>
               </div>
-              <h3 className="member-title">Legal Advisor</h3>
+              <h3 className="member-title">Kathrine Wells</h3>
+              <div className="member-role">Legal Advisor</div>
               <p className="member-description">
                 Contract review, risk assessment, compliance monitoring, document drafting
               </p>
@@ -330,24 +418,6 @@ export default function TheAITeam() {
               </div>
             </div>
 
-            {/* Business Analyst */}
-            <div className="team-member-card tier-2-only">
-              <div className="tier-2-badge">Tier 2 Only</div>
-              <div className="member-icon">
-                <svg width="32" height="32" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                </svg>
-              </div>
-              <h3 className="member-title">Business Analyst</h3>
-              <p className="member-description">
-                Market research, competitor analysis, SWOT analysis, strategic planning
-              </p>
-              <div className="member-skills">
-                <span className="skill-tag">Deep Research</span>
-                <span className="skill-tag">Competitor Analysis</span>
-                <span className="skill-tag">SWOT Analysis</span>
-              </div>
-            </div>
           </div>
         </div>
       </section>

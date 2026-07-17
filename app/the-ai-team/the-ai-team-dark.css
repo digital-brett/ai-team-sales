@@ -583,6 +583,23 @@
   color: #FFFFFF;
 }
 
+.member-role {
+  color: #A855F7;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.team-section-note {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 15px;
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+
 .member-description {
   color: rgba(255, 255, 255, 0.7);
 }
